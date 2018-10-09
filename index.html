@@ -4,17 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/styles/overrides.css">
     <title>Welcome to Creating Minds</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Creating 
-            <span class="txt-type" data-wait="3000" data-words='["Minds", "Intelligent Systems", "The Future"]'></span>
-        </h1>
-        <h2>The World's First Open Data Marketplace For AI & IOT Developers</h2>
+    <header class="v-header container">
+        <div class="fullscreen-video-wrap">
+            <iframe src="https://streamable.com/s/enhl0/htncmt?autoplay=1&muted=1" width="2051" height="1080" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="header-overlay"></div>
+        <div class="header-content">
+            <h1>Creating 
+                <span class="txt-type" data-wait="3000" data-words='["Minds", "Intelligent Systems", "The Future"]'></span>
+            </h1>
+            <h2>An Open Marketplace for AI & IoT Datasets, Powered by Blockchain Technology.</h2>
+            <a href="#" id="btn-chat" class="button">Chat with Emily</a>
+        </div>    
+    </header>
+    
+    <div class="chat-box">
+        <h1>Meet Emily</h1>
+        <h2>Our AI Receptionist</h2>
+
+        <iframe width="960" height="720" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/14fc8d5e-1dbc-4cbe-8cbd-345e99899bf6"></iframe>
     </div>
 
-    <script src="main.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="./assets/scripts/main.js"></script>
 </body>
 </html>
